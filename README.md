@@ -14,3 +14,10 @@
 ![p](img/SS2.png)
 <br>lalu buka pada browser untuk melihat hasilnya.
 ![p](img/SS3.png)
+
+### 2. Membuat Navbar
+
+<br>Buat komponen website yang berupa menu. yang biasanya di letakkan pada header website. seperti gambar berikut.
+![p](img/SS4.png)
+<br>lalu refresh pada browser untuk melihat hasilnya.
+![p](img/SS5.png)
