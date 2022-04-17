@@ -32,3 +32,10 @@
 ![p](img/SS8.png)
 <br>maka hasilnya akan seperti ini.
 ![p](img/SS9.png)
+
+### 4. About
+
+<br>about adalah tentang pengenalan diri atau informasi seperti berikut.
+![p](img/SS10.png)
+<br>Refresh pada browser nanti hasilnya akan seperti berikut.
+![p](img/SS11.png)
