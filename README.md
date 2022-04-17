@@ -2,4 +2,10 @@
 
 # Langkah-langkah Praktikum 6
 
-## 1. Buat folder baru dengan nama lab6_css_framework, Buat dengan file baru dokumen html
+## 1. Buat file baru dengan nama lab6_css_framework HTML.
+
+![p](img/SS1.png)
+
+## 2. Buatlah layout web sederhana menggunakan css framework (Twitter Bootsrtap)
+
+### 1. Quick start
