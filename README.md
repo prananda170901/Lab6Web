@@ -1,41 +1,45 @@
-# Lab6Web
+# Layout Sederhana menggunakan Bootstrap Framework
 
-# Langkah-langkah Praktikum 6
+## Langkah-langkah pembuatan layout sederhana menggunakan bootstrap framework
 
-## 1. Buat file baru dengan nama lab6_css_framework HTML.
+### 1. Membuat dokumen HTML
 
-![p](img/SS1.png)
+<br>Seperti Berikut.
 
-## 2. Buatlah layout web sederhana menggunakan css framework (Twitter Bootsrtap)
+```HTML
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Framework</title>
+  </head>
+  <body></body>
+</html>
+```
 
-### 1. Quick start
+### 2. Quick Start
 
-<br>buka web https://getbootstrap.com Disini saya memakai Bootstrap 5. seperti berikut.
-![p](img/SS2.png)
-<br>lalu buka pada browser untuk melihat hasilnya.
-![p](img/SS3.png)
+<br>Disini saya menggunakan bootstrap 5. bootstrap sendiri merupakan website penyedia open source yang didalam nya terdapat file-file. berikut file yang saya gunakan.
 
-### 2. Membuat Navbar
+```HTML
+<!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#">Artikel</a>
+          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#">Kontak</a>
+        </div>
+      </div>
+    </nav>
+    <!--Akhir Navbar-->
+```
 
-<br>Buat komponen website yang berupa menu. yang biasanya di letakkan pada header website. seperti gambar berikut.
-![p](img/SS4.png)
-<br>lalu refresh pada browser untuk melihat hasilnya.
-![p](img/SS5.png)
-
-### 3. Jumbotron
-
-<br>selanjutnya buat jumbotron atau area besar pada boostrap, umumnya digunakan untuk menampilkan sebuah informasi. seperti berikut.
-![p](img/SS6.png)
-<br>masukan link css dibawah link boostrap seperti berikut.
-![p](img/SS7.png)
-<br>kemudian tambahkan css untuk mengubah tampilan jumbotron seperti kode berikut.
-![p](img/SS8.png)
-<br>maka hasilnya akan seperti ini.
-![p](img/SS9.png)
-
-### 4. About
-
-<br>about adalah tentang pengenalan diri atau informasi seperti berikut.
-![p](img/SS10.png)
-<br>Refresh pada browser nanti hasilnya akan seperti berikut.
-![p](img/SS11.png)
+![Navbar](img/Navbar.png)
