@@ -24,6 +24,27 @@
 <br>Disini saya menggunakan bootstrap 5. bootstrap sendiri merupakan website penyedia open source yang didalam nya terdapat file-file. berikut file yang saya gunakan.
 
 ```HTML
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous" />
+
+    <!--My CSS-->
+    <link rel="stylesheet" href="style.css" />
+    <title>Bootstrap Framework</title>
+  </head>
+  <body>
+    <h1>Layout Sederhana</h1>
+```
+
+### 3. Navbar
+
+```HTML
 <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
       <a class="navbar-brand" href="#">Navbar</a>
@@ -44,7 +65,7 @@
 
 ![Navbar](img/Navbar.png)
 
-### 3. Jumbotronp
+### 4. Jumbotronp
 
 ```HTML
 <!--Jumbotron-->
