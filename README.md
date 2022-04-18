@@ -43,3 +43,17 @@
 ```
 
 ![Navbar](img/Navbar.png)
+
+### 3. Jumbotronp
+
+```HTML
+<!--Jumbotron-->
+    <div class="jumbotron">
+      <h1 class="display-4">Hello, world!</h1>
+      <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate nam quibusdam ipsum eos facere assumenda repudiandae ipsa magnam, tempore, modi illum omnis, enim et quod excepturi numquam eum id deleniti.</p>
+      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </div>
+    <!--Akhir Jumbotron-->
+```
+
+![jumbotron](img/jumbotron.png)
