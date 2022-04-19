@@ -146,3 +146,75 @@
 
 <br>Lalu refresh pada browser untuk melihat hasilnya
 ![widget](img/Widget.png)
+
+### 7. Membuat RoW
+
+<br>Lalu membuat row baru dan juga col baru dengan menambahkan class dan juga inline css untuk sedikit memperindah seperti gambar di atas dan code dibawah.
+
+```HTML
+ <!-- Row Content 2 -->
+    <div class="row">
+      <!-- Section 1 -->
+      <div class="col-8-md">
+        <div class="card mb-3" style="width: 900px; height: 200px; border: 0">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="https://dummyimage.com/150/7b8a70/fff.png" class="img-fluid rounded-start" alt="..." />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h2 class="card-title" style="font-weight: bold">First featurette heading</h2>
+                <p class="card-text" style="text-align: left">
+                  This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit animi quidem facere neque.
+                  Ea rem labore dolorum, necessitatibus quod, maiores tempore harum fugit qui accusantium iure. Dolorum illo repellat vitae?
+                </p>
+                <p class="card-text"><small class="text-muted"></small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Row Content 3 -->
+    <div class="row">
+      <!-- Section 2 -->
+      <div class="col-8-lg me-5">
+        <div class="card mb-3" style="width: 900px; height: 200px; border: 0">
+          <div class="row g-0">
+            <div class="col-md-8">
+              <div class="card-body">
+                <h2 class="card-title" style="font-weight: bold">First featurette heading</h2>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi rerum at facilis nesciunt.
+                  Quidem, ullam quod beatae sapiente excepturi, vitae praesentium ipsa ab optio, doloribus voluptatem vel atque eveniet necessitatibus?
+                </p>
+                <p class="card-text"><small class="text-muted"></small></p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <img src="https://dummyimage.com/150/7b8a70/fff.png" class="img-fluid rounded-start" alt="picture" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Akhir Row-->
+```
+
+![row](img/row.png)
+
+### 8. Footer
+
+<br>Terakhir yaitu membuat card-footer dengan class card yang terdapat dibootstrap seperti gambar di atas dan code di bawah.
+
+```HTML
+<div class="card-footer text-center" style="background-color: #1d1d1d; color: #eee">
+      <p>© 2022 - Universitas Pelita Bangsa</p>
+    </div>
+```
+
+![footer](img/footer.png)
+
+## FULL LAYOUT
+
+![FULL](IMG/full.png)
