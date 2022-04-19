@@ -217,4 +217,4 @@
 
 ## FULL LAYOUT
 
-![FULL](IMG/full.png)
+![FULL](img/full.png)
