@@ -65,7 +65,7 @@
 
 ![Navbar](img/Navbar.png)
 
-### 4. Jumbotronp
+### 4. Jumbotron
 
 ```HTML
 <!--Jumbotron-->
@@ -78,3 +78,71 @@
 ```
 
 ![jumbotron](img/jumbotron.png)
+
+### 5. Cards
+
+<br>ini merupakan code untuk membuat element cards
+
+```HTML
+<!--Cards-->
+    <section id="main">
+      <div class="row">
+        <div class="box">
+          <img src="https://dummyimage.com/120/db7d25/fff.png" alt="" class="image-circle" />
+          <h3>Heading</h3>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
+          <a href="#" class="btn btn-default">View detail</a>
+        </div>
+        <div class="box">
+          <img src="https://dummyimage.com/120/3e73e6/fff.png" alt="" class="image-circle" />
+          <h3>Heading</h3>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
+          <a href="#" class="btn btn-default">View detail</a>
+        </div>
+        <div class="box">
+          <img src="https://dummyimage.com/120/71e6d4/fff.png" alt="" class="image-circle" />
+          <h3>Heading</h3>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
+          <a href="#" class="btn btn-default">View detail</a>
+        </div>
+      </div>
+    </section>
+    <!--Akhir Cards-->
+```
+
+![cards](img/CARDS.png)
+
+### 6. Widget Header dan Widget Text
+
+<br>berikut code untuk membuat Widget Header
+
+```HTML
+<!-- Widget Header -->
+    <div class="col-3">
+      <div class="list-group my-4" style="border-radius: 0">
+        <a href="#" class="list-group-item list-group-item-action active" aria-current="true" style="font-weight: bold"> Widget Header </a>
+        <a href="#" class="list-group-item list-group-item-action">Widget Link</a>
+        <a href="#" class="list-group-item list-group-item-action">Widget Link</a>
+        <a href="#" class="list-group-item list-group-item-action">Widget Link</a>
+        <a href="#" class="list-group-item list-group-item-action">Widget Link</a>
+        <a href="#" class="list-group-item list-group-item-action">Widget Link</a>
+      </div>
+      <!--Akhir Widget Header-->
+```
+
+<br>Berikut Merupakan code membuat Widget Text
+
+```HTML
+<!--Widget Text-->
+      <div class="list-group my-4" style="border-radius: 0; border: 1px #eee">
+        <a href="#" class="list-group-item list-group-item-action active" aria-current="true" style="font-weight: bold"> Widget Text </a>
+        <a href="#" class="list-group-item list-group-item-action">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quas natus, amet ab voluptatibus beatae accusamus, quam hic veritatis ipsa, accusantium est nihil dolores minus at labore sapiente autem vero.</p>
+        </a>
+      </div>
+    </div>
+    <!--Akhir Widget Text-->
+```
+
+<br>Lalu refresh pada browser untuk melihat hasilnya
+![widget](img/Widget.png)
